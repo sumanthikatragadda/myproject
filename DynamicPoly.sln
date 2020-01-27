@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29613.14
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DynamicPoly", "DynamicPoly.csproj", "{EEA2692D-C6B0-418E-87C8-37B8E87C50AD}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{EEA2692D-C6B0-418E-87C8-37B8E87C50AD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EEA2692D-C6B0-418E-87C8-37B8E87C50AD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EEA2692D-C6B0-418E-87C8-37B8E87C50AD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EEA2692D-C6B0-418E-87C8-37B8E87C50AD}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {935870BE-B19C-40CF-B150-86B20CD803FB}
+	EndGlobalSection
+EndGlobal

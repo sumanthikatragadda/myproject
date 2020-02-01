@@ -1,0 +1,44 @@
+﻿@model ProjectMVC.Models.Seller
+
+@{
+    ViewData["Title"] = "Details";
+     var photoPath = "~/images/" + (Model.Photopath ?? "Flower.jpg");
+}
+
+<h1>Details</h1>
+
+<div>
+    <h4>Seller</h4>
+   
+    <div class="row justify-content-center m-3">
+        <div class="col-sm-8">
+            <div class="card">
+                <div class="card-header">
+                    <h1>@Model.Sname</h1>
+                </div>
+
+                <div class="card-body text-center">
+                    <img class="card-img-top" src="@photoPath" asp-append-version="true" />  
+                    <h4>name : @Model.Sname</h4>
+                    <h4>Email : @Model.Semail</h4>
+                    <h4>Companyname = @Model.Companyname</h4>
+                    <h4>Website = @Model.Website</h4>
+                    <h4>Saddress=@Model.Saddress</h4>
+                    <h4>Contactno=@Model.Contactno</h4>
+
+
+
+                </div>
+                <div class="card-footer text-center">
+                    <a asp-controller="home" asp-action="index" class="btn btn-primary">Back</a>
+                    <a href="#" class="btn btn-primary">Edit</a>
+                    <a href="#" class="btn btn-danger">Delete</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div>
+    <a asp-action="Edit" asp-route-id="@Model.Sid">Edit</a> |
+    <a asp-action="Index">Back to List</a>
+</div>
